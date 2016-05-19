@@ -1,0 +1,169 @@
+body {
+   margin: 0 auto;
+   padding: 0;
+   box-sizing: border-box;
+   border: 0;
+   font-family: sans-serif;
+   font-size: 10px;
+   font: inherit;
+   vertical-align: baseline;
+}
+
+.home {
+   line-height: 1;
+}
+
+/*Beginning of hamberger menu*/
+body{
+  font-family: sans-serif;
+	margin:0;
+}
+header{
+	width:100%;
+	background:white;
+	height:50px;
+	line-height:50px;
+}
+.hamburger{
+  background:none;
+  position: relative;
+  line-height:80px;
+  padding:0px 15px 0px 15px;
+  color: #888888;
+  border:0;
+  font-size:1.4rem;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+.cross{
+  background:none;
+  position: relative;
+  padding:0px 15px 0px 15px;
+  color: #888888;
+  border:0;
+  font-family: sans-serif;
+  font-size:2.4rem;
+  line-height:80px;
+  /*font-weight:bold;*/
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+.menu{z-index:1000000; font-weight: 100; font-size: 1.1rem; width:25%; background: white;  position:absolute; text-align:center;}
+.menu ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none;}
+.menu li {display: block;   padding:10px 0 10px 0; border-bottom: darkgray 1px solid;}
+.menu li:hover{display: block;    background: lightgray; padding:10px 0 10px 0; border-bottom:#ff9933 1px solid;}
+.menu ul a li { text-decoration:none;  margin: 0; color: darkgray;}
+.menu ul a:hover li {  color: #3399cc; text-decoration:none;}
+.menu a{text-decoration:none; color:lightgray;}
+.menu a:hover{text-decoration:none; color: #3399cc;}
+
+.glyphicon-home{
+  color:white;
+  font-size:1.5rem;
+  margin-top:5px;
+  margin:0 auto;
+}
+/*End of hamberger menu*/
+
+.home div div {
+   margin-top: 3rem;
+}
+
+a {
+  color: blue;
+  -webkit-transition: all 333ms ease-in-out;
+  transition: all 333ms ease-in-out;
+}
+a:focus, a:hover, a:active {
+  outline: 0;
+}
+a:hover {
+  color: purple;
+}
+
+h1, h2, h3, h4, h5 {
+  color: #666666;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-weight: 900;
+}
+
+h1 {
+  font-size: 4.15rem;
+}
+
+h4 {
+  font-size: 1.3rem;
+}
+
+p {
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 300;
+}
+
+body.home h1 {
+  width: 80%;
+  max-width: 430px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 12px;
+  text-align: center;
+  color: #666666;
+  letter-spacing: 0.12rem;
+  font-weight: 700;
+}
+@media screen and (max-width: 600px) {
+  body.home h1 {
+    position: relative;
+    top: -20px;
+  }
+}
+
+body.home h4 {
+  width: 80%;
+  max-width: 430px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  /*color: #27a9e1;*/
+  color: #3399cc;
+  font-family: sans-serif;
+  font-weight: 400;
+}
+
+.home #location {
+  display: block;
+  position: absolute;
+  bottom: 80px;
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+}
+.home #location img.icon {
+  margin-bottom: 10px;
+  width: 36px;
+  -webkit-transition: all 333ms ease-in-out;
+  transition: all 333ms ease-in-out;
+}
+.home #location p {
+  text-transform: uppercase;
+  color: #888888;
+  letter-spacing: 0.2rem;
+  font-size: 1rem;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 400;
+  -webkit-transition: all 333ms ease-in-out;
+  transition: all 333ms ease-in-out;
+}
+
+.home #location:hover img.icon {
+  width: 60px;
+}
