@@ -1,0 +1,177 @@
+body {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 750px;
+  font-size: 10px;
+  font-family:sans-serif;
+  box-sizing: border-box;
+}
+
+.topDiv {
+	margin: 0;
+	padding: 0;
+	border: 3px solid red;
+	border-radius: 15px;
+}
+
+table {
+  margin: 0 auto;
+  padding: 10px;
+  width: 98%;
+}
+
+thead th:nth-child(-n + 3) {
+  margin: 0 auto;
+  padding: 0;
+  text-align: left;
+  color: red;
+  font-size: 1.5rem;
+}
+
+thead th:nth-last-child(-n + 4) {
+	text-align: right;
+	color: red;
+	font-size: .6rem;
+}
+
+tbody td:nth-child(-n + 3) {
+  margin: 0 auto;
+  padding: 0;
+  text-align: left;
+  color: darkgreen;
+  font-size: .8rem;
+}
+
+tbody td:nth-last-child(-n + 4) {
+	text-align: right;
+	color: darkgreen;
+	font-size: .8rem;
+}
+
+/* above is the top table
+    Below is the left and right columns.
+*/
+
+.left {
+  position: relative;
+  float: left;
+  width: 90%;
+  max-width: 360px;
+  margin-bottom: 10px;
+  text-align: left;
+  color: darkgreen;
+}
+
+.right {
+  position: relative;
+  float: right;
+  width: 90%;
+  max-width: 360px;
+  margin-bottom: 10px;
+  color: darkgreen;
+}
+
+.subHeadingTop1First {
+  margin-top: 12px;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 6px;
+  text-align: center;
+  color: red;
+}
+
+.subHeadingTop1 {
+  margin-top: 12px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0px;
+  text-align: center;
+  color: red;
+}
+
+.subHeadingTop1a {
+  margin-bottom: 0px;
+  text-align: center;
+  color: red;
+}
+
+.subHeadingTop2 {
+  text-align: center;
+  color: darkgreen;
+}
+
+.subHeadingTop2a {
+  margin: 0px;
+  text-align: center;
+  color: darkgreen;
+  font-weight: normal;
+  font-style: italic;
+}
+
+.subHeadingTop3 {
+  /*margin: 0px;*/
+  text-align: center;
+  color: red;
+}
+
+.subHeadingTop3a {
+  margin-left: 10px;
+  margin-right: 191px;
+  margin-bottom: 10px;
+  width: 100px;
+  text-align: left;
+}
+
+.hot {
+    color: red;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+span.number {
+    font-size: .77rem;
+    display: inline-block;
+    width: 18px;
+    text-align: right;
+}
+
+span.name {
+    font-size: .77rem;
+    margin-left: 25px;
+    margin-right: 96px;
+}
+
+span.name.pepper {
+    font-size: .77rem;
+    margin-left: 8px;
+    margin-right: 96px;
+}
+
+span.price {
+    font-size: .77rem;
+    float: right;
+    margin-right: 6px;
+}
+
+span.price.sm {
+    margin-right: 44px;
+}
+
+span.price.lg {
+    margin-right: -62px;
+}
+
+span.subIngred {
+    font-size: 9px;
+    display: inline-block;
+    margin-left: 51px;
+}
+
+hr {
+    max-width: 365px;
+    border-color: red;
+    border-width: 4px;
+    border-style: solid;
+}
