@@ -10,6 +10,7 @@ body {
 .topDiv {
 	margin: 0;
 	padding: 0;
+     margin-top: 20px;
 	border: 3px solid red;
 	border-radius: 15px;
 }
@@ -84,7 +85,7 @@ tbody td:nth-last-child(-n + 4) {
   margin-top: 12px;
   font-size: 1.2rem;
   font-weight: bold;
-  margin-bottom: 0px;
+  margin-bottom: -12px;
   text-align: center;
   color: red;
 }
@@ -126,8 +127,16 @@ tbody td:nth-last-child(-n + 4) {
     color: red;
 }
 
+.fixit {
+    padding-left: 5px;
+}
+
 .bold {
     font-weight: bold;
+}
+
+h5 {
+    margin-bottom: 4px;
 }
 
 span.number {
@@ -140,6 +149,12 @@ span.number {
 span.name {
     font-size: .77rem;
     margin-left: 25px;
+    margin-right: 96px;
+}
+
+.hot span.name.pepper.lunch{
+    font-size: .77rem;
+    margin-left: 3px;
     margin-right: 96px;
 }
 
